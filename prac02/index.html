@@ -1,5 +1,3 @@
-<!--- Script que se dedica solamente a Colocar un Mensaje --->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,21 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Document</title>
     <link rel="stylesheet" href="./style/index.css">
-    <!--** Link a Vue que se debe agregar **-->
-    <script src="https://unpkg.com/vue@3"></script>
+
 </head>
 
 <body>
-<!--- ** división con el etiquetado que debe colocarse en el ".mount("#NOMBREDELADIV")" **-->
+
     <div id="app">
 
-        {{mensaje}}  <!---Nombre que se le da a la data()--->
-
-
+        <h4>{{equipo}}</h4>
+        <h4>{{homeTown}}</h4>
+        <h4>{{formed}}</h4>
+        <h4>{{secretBase}}</h4>
+        <h4>Está activo: {{active}}</h4>
     </div>
+
+
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./js/index.js"></script>
 </body>
 
