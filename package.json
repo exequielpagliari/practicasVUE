@@ -4,7 +4,7 @@
   "description": "Mi Primera Aplicacion Hola Mundo Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server -d --config webpack.dev.config.js --content-base public/ --progress --colors"
 
   },
   "author": "Exepa",
